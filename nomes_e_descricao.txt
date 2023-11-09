@@ -1,0 +1,75 @@
+Nome dos integrantes do grupo:
+
+Márcio Gastaldi - RM98811
+Arthur Bessa Pian - RM99215
+Davi Desenzi - RM550849
+Miguel Milok - RM98494
+João Victor Soares Rodrigues - RM551410
+
+Tema do grupo:
+
+Uma Plataforma de Mapeamento e Compartilhamento de Espaços Verdes Urbanos
+
+Uma plataforma online que mapeie e promova espaços verdes urbanos pouco conhecidos e subutilizados em uma grande
+cidade. A plataforma permitirá que os moradores descubram e compartilhem informações sobre parques, praças, jardins
+comunitários, telhados verdes e outras áreas naturais. A plataforma tem como objetivo conectar moradores da cidade a
+espaços verdes pouco conhecidos e subutilizados, promovendo a conscientização sobre a importância da natureza e
+proporcionando oportunidades para explorar e compartilhar informações sobre essas áreas.
+
+Descrição das funcionalidades implementadas:
+
+1. Carregamento de Dados:
+
+O código possui uma função carregar_espacos_verdes que lê o arquivo JSON "espacos_verdes.json" e carrega os dados em
+um dicionário Python.
+
+2. Salvar Dados em JSON:
+
+A função salvar_para_json é responsável por salvar o dicionário de espaços verdes de volta no arquivo
+"espacos_verdes.json" no formato JSON.
+
+3. Cadastro de Espaço Verde/Evento:
+
+Permite ao usuário cadastrar novos espaços verdes ou eventos, fornecendo informações como nome, localização, avaliação
+e descrição.
+
+4. Alteração de Informações:
+
+Permite ao usuário modificar as informações de um espaço verde/evento já cadastrado, incluindo a localização, avaliação
+e descrição.
+
+5. Listar Espaços Verdes/Eventos:
+
+Exibe a lista de todos os espaços verdes/eventos cadastrados, mostrando apenas seus nomes.
+
+6. Buscar Espaço Verde/Evento:
+
+Permite ao usuário pesquisar informações detalhadas sobre um espaço verde/evento específico, incluindo
+localização, avaliação e descrição.
+
+7. Comparar Espaços Verdes/Eventos:
+
+Permite ao usuário comparar duas opções de espaços verdes/eventos com base em suas avaliações.
+
+8. Ranquear Espaços Verdes/Eventos:
+
+Exibe uma classificação dos espaços verdes/eventos cadastrados com base em suas avaliações, em ordem decrescente.
+
+9. Filtrar por Avaliação Mínima:
+
+Permite ao usuário filtrar os espaços verdes/eventos com base em uma avaliação mínima especificada, exibindo
+apenas aqueles que atendem ao critério.
+
+10. Sistema de Login:
+
+Solicita ao usuário seu nome e uma senha com requisitos específicos (deve conter letras, números e caracteres especiais)
+para acessar o sistema.
+
+11. Loop de Execução do Menu Principal:
+
+Após o login bem-sucedido, o programa entra em um loop onde o usuário pode escolher entre várias operações para
+interagir com o sistema.
+
+12. Opção de Sair:
+
+Permite ao usuário sair do sistema e salvar as informações adicionadas/alteradas quando desejar.
